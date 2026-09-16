@@ -1,6 +1,6 @@
 # Lab Appendix:
 
-### Lab Appendix 1: Screen Pop – sample "index.php"
+### Appendix 1: Screen Pop – sample "index.php"
 
 ```php
 <?php
@@ -113,4 +113,21 @@ if (isset($_GET['phone'])) {
 }
 ?>
 ```
+
+### Appendix 2: Related Sessions at WebexOne 2026
+
+* CLS-11089: Level Up Your Customer Service: Webex Calling Customer Assist
+* LAB-11169: Webex Calling Customer Assist Hands-On Lab
+* CLS-21076: Webex Calling Customer Assist: Smarter Support, Made Simple
+
+### Appendix 3: Online References
+
+**Webex Calling AI Receptionist:**
+
+* [https://help.webex.com/en-us/article/4chov0/AI-Receptionist-in-Webex-Calling](https://help.webex.com/en-us/article/4chov0/AI-Receptionist-in-Webex-Calling){:target="_blank" rel="noopener"}
+
+**Webex Calling Customer Assist:**
+
+* [https://help.webex.com/en-us/article/72sb3r/Webex-Calling-Customer-Assist](https://help.webex.com/en-us/article/72sb3r/Webex-Calling-Customer-Assist){:target="_blank" rel="noopener"}
+* [https://help.webex.com/en-us/article/nc8142w/Get-started-with-Webex-Calling-Customer-Assist-for-Supervisors](https://help.webex.com/en-us/article/nc8142w/Get-started-with-Webex-Calling-Customer-Assist-for-Supervisors){:target="_blank" rel="noopener"}
 

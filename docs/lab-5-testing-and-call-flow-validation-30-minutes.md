@@ -168,32 +168,12 @@ To monitor AI Receptionist usage, you can go to the Control Hub under AI Recepti
 
 * The report is useful when you want to evaluate front desk automation, compare performance across receptionists or locations, and identify configuration improvements. For example, a low intent-transfer rate may indicate that intents need clearer descriptions, while a low transfer success rate may indicate that transfer destinations, operating hours, or routing configuration need review.
 
-Please click “**Logout and Release Station**” to release the session to next lab participants. Thank You!
-
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 **Congratulations, you have finished this fantastic “Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist” lab.**
 
-Please fill out the survey in your Cisco Live app under “My Surveys” section to receive a copy of this lab guide.
+Please click “**Logout and Release Station**” to release the session to next lab participants.
 
-**To learn more about Webex Calling, Customer Assist at WebexOne 2026:**
-
-* **CLS-11089: Level Up Your Customer Service: Webex Calling Customer Assist**
-* **LAB-11169: Webex Calling Customer Assist Hands-On Lab**
-* **CLS-21076: Webex Calling Customer Assist: Smarter Support, Made Simple**
-
-**Online References:**
-
-**Webex Calling AI Receptionist:**
-
-[**https://help.webex.com/en-us/article/4chov0/AI-Receptionist-in-Webex-Calling**](https://help.webex.com/en-us/article/4chov0/AI-Receptionist-in-Webex-Calling)
-
-**Webex Calling Customer Assist:**
-
-[**https://help.webex.com/en-us/article/72sb3r/Webex-Calling-Customer-Assist**](https://help.webex.com/en-us/article/72sb3r/Webex-Calling-Customer-Assist)
-
-[**https://help.webex.com/en-us/article/nc8142w/Get-started-with-Webex-Calling-Customer-Assist-for-Supervisors**](https://help.webex.com/en-us/article/nc8142w/Get-started-with-Webex-Calling-Customer-Assist-for-Supervisors)
+[![](assets/docx-image-092.png){ .bordered }](https://app.sli.do/event/1SyaZW7bvQuVyAyPRLv2hD){:target="_blank" rel="noopener"}
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-[![](assets/docx-image-092.png){ .bordered }](https://app.sli.do/event/1SyaZW7bvQuVyAyPRLv2hD)
