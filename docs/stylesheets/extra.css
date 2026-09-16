@@ -13,6 +13,54 @@
     max-width: 1440px;
 }
 
+.md-typeset {
+    font-size: 0.9rem;
+}
+
+.md-typeset img.bordered {
+    border: 1px solid #b0b0b0;
+    padding: 2px;
+}
+
+.extra-indent {
+    margin-left: 2em;
+}
+
+.md-typeset h1 {
+    font-weight: 800;
+}
+
+.md-typeset h3 {
+    font-weight: 700;
+}
+
+.toggle-on-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #1a73e8;
+    color: #fff;
+    border-radius: 999px;
+    padding: 3px 10px 3px 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.toggle-on-badge .toggle-on-badge__dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    color: #1a73e8;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
 :root {
     --md-primary-fg-color: #051C2C;
     --md-accent-fg-color: #00bdeb;
