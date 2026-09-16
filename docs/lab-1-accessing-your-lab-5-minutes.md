@@ -4,25 +4,25 @@ All components for this lab can be accessed through a web browser on the Lab PC.
 
 ### Step 1.1: Accessing your Lab session from the Lab PC
 
-On your Lab PC, open a web session in chrome browser. Open the link below – <https://www.ciscodcloud.com/apps/expo/43ekrdaiwx7zkx7cmmo0s4mme>
+On your Lab PC, open a web session in chrome browser. Open the link below – [https://www.ciscodcloud.com/apps/expo/43ekrdaiwx7zkx7cmmo0s4mme](https://www.ciscodcloud.com/apps/expo/43ekrdaiwx7zkx7cmmo0s4mme){:target="_blank" rel="noopener"}
 
 The url is also shared in the Lab Webex space.
 
 1. Click “Explore” once you get the page below. Click “Explore” once you get the page below, confirm your LabID: LAB-21074.
 
-    ![](assets/docx-image-004.png)
+    ![](assets/docx-image-004.png){ .bordered }
 
 2. Type in your email address, click on the check-box and click “Launch” to get started with your lab.
 
-    ![](assets/docx-image-005.png)
+    ![](assets/docx-image-005.png){ .bordered }
 
 3. On the next screen you would see “Lab-21074” and “View Session” tab where you could see the topology. When you are done you can click “Logout and End Session”. In this lab you would be using “wkst1”, click “**Open**”.
 
-    ![](assets/docx-image-006.png)
+    ![](assets/docx-image-006.png){ .bordered }
 
 4. Select “Allow” if you see similar window pop-up like the below:
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-007.png){ width="742" }
+    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-007.png){ .bordered width="742" }
 
 ### Step 1.2: Access Control Hub from Lab PC
 
@@ -30,11 +30,11 @@ The url is also shared in the Lab Webex space.
 
 2. Sort the Desktop files by “Name” and open the file “WEBEX\_PASSWORD.txt”
 
-    ![](assets/docx-image-008.png)
+    ![](assets/docx-image-008.png){ .bordered }
 
 3. Once the file is opened, make note of domain part and password.
 
-    ![](assets/docx-image-009.png)
+    ![](assets/docx-image-009.png){ .bordered }
 
     From the above, the username for Control Hub Full Admin is [**cholland@cb128.dc-05.com**](mailto:cholland@cb128.dc-05.com) and password is “**dCloud0907!**”.
 
@@ -57,7 +57,7 @@ The url is also shared in the Lab Webex space.
 
 5. You can select “Reject” for *This site uses cookies* pop-up window prompt – no impact to functionality. And select “No, thanks” at *Meet the Cisco AI Assistant* prompt to skip AI Assistant tour.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-010.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-010.png){ .bordered }
 
 ### Step 1.3: Change Control Hub idle timeout
 
@@ -67,7 +67,7 @@ The url is also shared in the Lab Webex space.
 
 3. Change the value from 20 minutes (Default) to “4 hours”
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-011.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-011.png){ .bordered }
 
 4. Click “Save”
 
@@ -77,7 +77,7 @@ The url is also shared in the Lab Webex space.
 
 2. In the License Summary section, verify calling license shown in “Calling” section including “AI Receptionist” and “Customer Assist”.
 
-    ![](assets/docx-image-012.png)
+    ![](assets/docx-image-012.png){ .bordered }
 
     |  |  |
     | --- | --- |
@@ -87,17 +87,17 @@ The url is also shared in the Lab Webex space.
 
 1. Under Management, click on “Users”.
 
-2. Total of eight users already added and shown with their email addresses.![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-013.png)
+2. Total of eight users already added and shown with their email addresses.![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-013.png){ .bordered }
 
 3. Let’s check user’s license and calling view for these two users. Start by left click on the username.
 
     * Charles Holland – **has calling** license assigned:
 
-    ![A screenshot of a contact page AI-generated content may be incorrect.](assets/docx-image-014.png)
+    ![A screenshot of a contact page AI-generated content may be incorrect.](assets/docx-image-014.png){ .bordered }
 
     * Calling tab view with Directory Number detail assign to Charles Holland:
 
-    ![A screenshot of a phone number AI-generated content may be incorrect.](assets/docx-image-015.png)
+    ![A screenshot of a phone number AI-generated content may be incorrect.](assets/docx-image-015.png){ .bordered }
 
     * Follow the same steps for Anita Perez.
 
@@ -111,13 +111,13 @@ At this step, you will be verifying PSTN type for dCloud location.
 
 3. Verify that PSTN Connection = Premised-based PSTN, and a number is assigned to the Main number field.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-016.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-016.png){ .bordered }
 
 ### Step 1.7: Verify Configured Numbers
 
 1. In Control Hub’s Services section, select “PSTN and Routing” and click on Number tab. It will list all configured numbers.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-017.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-017.png){ .bordered }
 
     |  |  |
     | --- | --- |

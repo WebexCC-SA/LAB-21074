@@ -8,7 +8,7 @@ How AI Receptionist can help your customers and users, here is an example we hav
 
 You need to see a Dentist, you found there is nearby Dentist available, but it is after hours and you need the information about services they offer and possibly insurance with pricing details. You are out of the luck as the clinic is closed, but not the AI Receptionist which is an interactive agent available 24X7. It can answer most of the customer queries based on the knowledge base is configured.
 
-![](assets/docx-image-001.png)
+![](assets/docx-image-001.png){ .bordered }
 
 **Imagine this situation:**
 
@@ -54,7 +54,7 @@ Why This Matters:
 
 In this lab, you will step into the role of a solution designer and configure your own AI Receptionist along with Customer Assist for a dental clinic.
 
-![](assets/docx-image-002.png)
+![](assets/docx-image-002.png){ .bordered }
 
 You will configure the AI Receptionist with Customer Assist so that when a “customer” interacts with it—just like in the scenario above—it can confidently answer questions and guide them effectively. If required AI Receptionist can transfer the call to a specialist or an Agent configured with Customer Assist.
 
@@ -64,4 +64,4 @@ You’re not just building a chatbot—you’re creating the first point of cont
 
 Let’s begin with how to Access the Lab –
 
-![](assets/docx-image-003.png)
+![](assets/docx-image-003.png){ .bordered }

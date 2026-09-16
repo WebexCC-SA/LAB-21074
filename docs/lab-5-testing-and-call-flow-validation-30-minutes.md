@@ -2,7 +2,7 @@
 
 We can now test and validate the AI Receptionist we built, let’s interact with it.
 
-* If you recall our call flow we had designed, we assigned a PSTN number – “dCloud Main Location number” and an extension “6500” to the AI Receptionist![](assets/docx-image-071.png)
+* If you recall our call flow we had designed, we assigned a PSTN number – “dCloud Main Location number” and an extension “6500” to the AI Receptionist![](assets/docx-image-071.png){ .bordered }
 * You can call the AI Receptionist using the PSTN number from your cell phone; however, we recommend using the Webex app and dial the extension “6500” to test.
 * We are providing headset with microphone to attendees, if you have not received one, please reach out to one of the proctors to request one.
 * To perform the validation, login as Anita Perez with Webex app in Lab PC and Charles Holland in Workstation1. Follow the table below on which workstation to login.
@@ -24,7 +24,7 @@ Summary Below:
 
     Anita Perez will simulate a caller/customer from the PSTN (Call 6500 once login).
 
-    ![A logo of a webex application AI-generated content may be incorrect.](assets/docx-image-072.png)
+    ![A logo of a webex application AI-generated content may be incorrect.](assets/docx-image-072.png){ .bordered }
 
 2. Click the “Sign in” and use the user-id for the user as below:
 
@@ -34,19 +34,19 @@ Summary Below:
 
     Refer to the Session Details (Task 1 – Step 2) for the user-id and password applicable for your session.
 
-    ![](assets/docx-image-073.png) ![](assets/docx-image-074.png)
+    ![](assets/docx-image-073.png){ .bordered } ![](assets/docx-image-074.png){ .bordered }
 
 3. Click the **two** **checkboxes** and select “**Allow Access**” to continue if you encountered this pop-up for Webex app – usually happened during first launch.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-075.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-075.png){ .bordered }
 
 4. Click “Agree” to continue if you encountered this disclaimer pop-up for Webex app – usually happened during first launch. It might ask you to relogin with username and password.
 
-    ![](assets/docx-image-076.png)
+    ![](assets/docx-image-076.png){ .bordered }
 
 5. Click “Ok” to acknowledge Emergency Calling Notification warning. Refer to the Appendix section to learn more about Emergency Calling for Webex Calling [out of scope for this lab].
 
-    ![A screenshot of a phone call AI-generated content may be incorrect.](assets/docx-image-077.png)
+    ![A screenshot of a phone call AI-generated content may be incorrect.](assets/docx-image-077.png){ .bordered }
 
 6. Repeat the same steps to login as Charles Holland from workstation1, you would use [cholland@domain.com](mailto:cholland@domain.com) and password provided in Task1.
 
@@ -56,7 +56,7 @@ Summary Below:
 
 2. Click on “Calling” button and type-in 6500 either 1] on the “Search or Dial” or 2] by pressing the dialer pad.
 
-    ![](assets/docx-image-078.png)
+    ![](assets/docx-image-078.png){ .bordered }
 
 3. Press the “handset” icon to initiate the call.
 
@@ -67,7 +67,7 @@ Summary Below:
 
 4. A call window will pop-up and you will hear the AI Receptionist greeting, start interacting with it.
 
-    ![](assets/docx-image-081.png)
+    ![](assets/docx-image-081.png){ .bordered }
 
 5. Some example voice interactions examples you can use based on our Knowledge Base we have configured –
 
@@ -82,7 +82,7 @@ Summary Below:
 
 7. The AI Receptionist will ask if it can transfer to the Billing Specialist, say Yes for that. You should see the call is getting transferred to Charles Holland who is our Billing Specialist as we have configured before.
 
-    ![](assets/docx-image-082.png)
+    ![](assets/docx-image-082.png){ .bordered }
 
 8. Once call is connected hangup as you may not be able to hear anything, but this validates our Intent based routing.
 
@@ -92,7 +92,7 @@ Summary Below:
 
 11. When you answer the call, you would notice a screen pop giving the information about customer which is a CRM integration feature available with Customer Assist.
 
-    ![](assets/docx-image-083.png)
+    ![](assets/docx-image-083.png){ .bordered }
 
 ### Step 5.3: Add Additional Knowledge Base
 
@@ -100,11 +100,11 @@ Let’s try updating the Knowledge Base to experience how AI Receptionist can an
 
 1. Log back into the Control Hub navigate to the AI Receptionist under “Services -> Calling -> AI Receptionist”. Click on “Knowledge Base”-> “**Smile Dental**”.
 
-    ![](assets/docx-image-084.png)
+    ![](assets/docx-image-084.png){ .bordered }
 
 2. Under Smile Dental Knowledge Base, click Add.
 
-    ![](assets/docx-image-085.png)
+    ![](assets/docx-image-085.png){ .bordered }
 
 3. This time instead of uploading a doc, we will create a text-based Knowledge Base with details below. Click on “**Create**” tab.
 
@@ -115,11 +115,11 @@ Let’s try updating the Knowledge Base to experience how AI Receptionist can an
 
 4. Once done, click Add.
 
-    ![](assets/docx-image-086.png)
+    ![](assets/docx-image-086.png){ .bordered }
 
 5. Now there will be two files under Smile Dental Knowledge Base – 1. File based and 2. Article based
 
-    ![](assets/docx-image-087.png)
+    ![](assets/docx-image-087.png){ .bordered }
 
     |  |  |
     | --- | --- |
@@ -142,9 +142,9 @@ AI Receptionist offers multiple languages to support several Geos, to change and
 
 2. Select Smile Dental and then click “Language and voice” line.
 
-    ![](assets/docx-image-089.png)
+    ![](assets/docx-image-089.png){ .bordered }
 
-3. Select AI Receptionist Language as “Spanish (Mexico) and select the AI receptionist voice as “Luna”, once selected click “Save”.![](assets/docx-image-090.png)
+3. Select AI Receptionist Language as “Spanish (Mexico) and select the AI receptionist voice as “Luna”, once selected click “Save”.![](assets/docx-image-090.png){ .bordered }
 
 4. From the Lab PC call “6500” again from “Anita Perez” Webex app. AI Receptionist will respond in the written language for Welcome Message, but subsequent interaction will be in Spanish such as –
 
@@ -164,7 +164,7 @@ To monitor AI Receptionist usage, you can go to the Control Hub under AI Recepti
 * Use the usage summary to identify whether the organization is approaching its entitlement limit.
 * The AI Receptionist report helps administrators understand how AI Receptionist is handling calls across the organization. Use the report to see whether callers are reaching AI Receptionist, whether calls are being answered, how often calls are transferred, and whether transfers succeed.
 
-    ![](assets/docx-image-091.png)
+    ![](assets/docx-image-091.png){ .bordered }
 
 * The report is useful when you want to evaluate front desk automation, compare performance across receptionists or locations, and identify configuration improvements. For example, a low intent-transfer rate may indicate that intents need clearer descriptions, while a low transfer success rate may indicate that transfer destinations, operating hours, or routing configuration need review.
 
@@ -196,4 +196,4 @@ Please fill out the survey in your Cisco Live app under “My Surveys” section
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-[![](assets/docx-image-092.png)](https://app.sli.do/event/1SyaZW7bvQuVyAyPRLv2hD)
+[![](assets/docx-image-092.png){ .bordered }](https://app.sli.do/event/1SyaZW7bvQuVyAyPRLv2hD)

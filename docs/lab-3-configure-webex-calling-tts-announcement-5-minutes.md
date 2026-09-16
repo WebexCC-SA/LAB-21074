@@ -4,7 +4,7 @@
 
 2. Click on “**Features**” > click on “**Add New**” under the **Announcements** card.
 
-    ![](assets/docx-image-048.png)
+    ![](assets/docx-image-048.png){ .bordered }
 
 3. Click on the “**Text to speech**” top menu
 
@@ -19,16 +19,16 @@
     | **Select Language** | English |
     | **Select Voice** | Steve-Male |
 
-    ![](assets/docx-image-049.png)
+    ![](assets/docx-image-049.png){ .bordered }
 
 5. Click “Generate” to create the audio file from the text provided above.
 
 6. Click “Save”
 
-    ![](assets/docx-image-050.png)
+    ![](assets/docx-image-050.png){ .bordered }
 
     You can press the Play icon to play the generated announcement for verification and further edit prior to save.
 
 7. List of Announcement files and type can be seen from the Announcement main menu.
 
-    ![](assets/docx-image-051.png)
+    ![](assets/docx-image-051.png){ .bordered }

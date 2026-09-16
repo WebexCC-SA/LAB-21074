@@ -1,6 +1,6 @@
 ---
-site_name: "LAB-21051 - Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist" # This must begin with the session ID, e.g. LABXXX-1234 This is my Cisco Live Lab
-site_description: "LAB-21051 - Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist" # must be same as "site_name"
+site_name: "LAB-21074 - Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist" # This must begin with the session ID, e.g. LABXXX-1234 This is my Cisco Live Lab
+site_description: "LAB-21074 - Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist" # must be same as "site_name"
 site_author: Eddy Chandra, Kalpesh Patil
 copyright: Copyright &copy; 2026 Cisco
 theme:
