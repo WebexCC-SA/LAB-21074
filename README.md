@@ -27,13 +27,9 @@ Optional arguments:
 
 ## Helper scripts (run after docx_to_markdown.py, in this order if needed)
 
-- `scripts/rename_task_headings.py <docx>` — renames Heading 1/2 paragraphs like
-  "Task N: ..." to "Lab N: ..." in a copy of the docx, so the splitter picks
-  them up as separate pages. Only needed if your source doc doesn't already
-  use "Lab" as the heading prefix.
 - `scripts/demote_heading2.py <docx>` — demotes all Heading 2 paragraphs to
   Heading 3 in a copy of the docx, so Steps stay nested inside their parent
-  Task/Lab page instead of splitting into their own file. Run this if your
+  Lab page instead of splitting into their own file. Run this if your
   Steps are Heading 2 and you don't want one file per step.
 - `scripts/fix_list_continuity.py docs/lab-*.md` — re-indents images,
   paragraphs, and admonitions that interrupt a numbered list so Markdown

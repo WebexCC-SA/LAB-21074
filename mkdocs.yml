@@ -90,11 +90,11 @@ nav:
   - Lab:
       - Learning Objectives: lab-learning-objectives.md
       - Overview: lab-overview.md
-      - Task 1 - Accessing your Lab: lab-1-accessing-your-lab-5-minutes.md
-      - Task 2 - AI Receptionist Configuration: lab-2-ai-receptionist-configuration-20-minutes.md
-      - Task 3 - Configure Webex Calling TTS Announcement: lab-3-configure-webex-calling-tts-announcement-5-minutes.md
-      - Task 4 - Configure Webex Calling Customer Assist: lab-4-configure-webex-calling-customer-assist-20-minutes.md
-      - Task 5 - Testing and Call Flow Validation: lab-5-testing-and-call-flow-validation-30-minutes.md
+      - Lab 1 - Accessing your Lab: lab-1-accessing-your-lab-5-minutes.md
+      - Lab 2 - AI Receptionist Configuration: lab-2-ai-receptionist-configuration-20-minutes.md
+      - Lab 3 - Configure Webex Calling TTS Announcement: lab-3-configure-webex-calling-tts-announcement-5-minutes.md
+      - Lab 4 - Configure Webex Calling Customer Assist: lab-4-configure-webex-calling-customer-assist-20-minutes.md
+      - Lab 5 - Testing and Call Flow Validation: lab-5-testing-and-call-flow-validation-30-minutes.md
       - Appendix: lab-appendix.md
   - Topologies: topologies.md
   - How to use this guide:
