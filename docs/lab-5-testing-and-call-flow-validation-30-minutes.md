@@ -111,7 +111,7 @@ Let’s try updating the Knowledge Base to experience how AI Receptionist can an
     |  |  |
     | --- | --- |
     | Name | Rates and Hours |
-    | Enter Document Content | 1. Service Fee estimate:  * Prices below is for quantity one and before insurance. * Dental Cleaning - $100 * Root Canal - $500 * Crown - $1000   2. Selected Weekend Hours Availability   * Smile Dental Clinic is open on selected weekends, this weekend we are open between 9am to 1pm and walk-ins are welcome. * For other weekend appointments, please check with an agent. |
+    | Enter Document Content | <ul style="list-style:none; padding-left:0; margin:0;"><li>1. Service Fee estimate:<ul><li>Prices below is for quantity one and before insurance.</li><li>Dental Cleaning - $100</li><li>Root Canal - $500</li><li>Crown - $1000</li></ul></li><li>2. Selected Weekend Hours Availability<ul><li>Smile Dental Clinic is open on selected weekends, this weekend we are open between 9am to 1pm and walk-ins are welcome.</li><li>For other weekend appointments, please check with an agent.</li></ul></li></ul> |
 
 4. Once done, click Add.
 
