@@ -172,8 +172,8 @@ To monitor AI Receptionist usage, you can go to the Control Hub under AI Recepti
 
 **Congratulations, you have finished this fantastic “Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist” lab.**
 
-Please click “**Logout and Release Station**” to release the session to next lab participants.
+Please click “**Logout and Release Station**” to release the session for next lab participants.
 
-[![](assets/docx-image-092.png){ .bordered }](https://app.sli.do/event/1SyaZW7bvQuVyAyPRLv2hD){:target="_blank" rel="noopener"}
+Complete your [Post-Session Survey](survey.md).
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
