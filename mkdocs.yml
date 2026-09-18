@@ -86,7 +86,6 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
-  - Welcome: welcome.md
   - Lab:
       - Learning Objectives: lab-learning-objectives.md
       - Overview: lab-overview.md
@@ -97,15 +96,4 @@ nav:
       - Lab 5 - Testing and Call Flow Validation: lab-5-testing-and-call-flow-validation-30-minutes.md
       - Appendix: lab-appendix.md
   - Topologies: topologies.md
-  - How to use this guide:
-      - Setting up and using the tool:
-        - Initial Setup: howToUse/initialSetup.md
-        - Using the tool after the initial setup: howToUse/postInitial.md
-        - Publishing your changes: howToUse/syncChanges.md
-      - Useful Tools and Resources: howToUse/usefulTools.md
-      - Importing from Word (docx): howToUse/importingFromWord.md
-      - Styling and Advanced Features:
-        - Custom Features: howToUse/customFeatures.md
-        - Custom Admonitions: howToUse/admonition.md
-      - Looking for Inspiration: howToUse/previousEventLabs.md
-      - Before the Event: howToUse/beforeTheEvent.md
+  - Post-Session Survey: welcome.md
