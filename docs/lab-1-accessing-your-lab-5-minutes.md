@@ -4,7 +4,16 @@ All components for this lab can be accessed through a web browser on the Lab PC.
 
 ### Step 1.1: Accessing your Lab session from the Lab PC
 
-On your Lab PC, open a web session in chrome browser. Open the link below – [http://cs.co/LAB21074a](http://cs.co/LAB21074a){:target="_blank" rel="noopener"}
+On your Lab PC, open a web session in chrome browser. Open the link below –
+
+<script>
+  const labAccessCutoff = new Date('2026-10-08T04:59:59Z');
+  const labAccessNow = new Date();
+  const labAccessUrl = labAccessNow < labAccessCutoff
+    ? 'http://cs.co/LAB21074a'
+    : 'http://cs.co/LAB21074b';
+  document.write('<a href="' + labAccessUrl + '" target="_blank" rel="noopener">' + labAccessUrl + '</a>');
+</script>
 
 The url is also shared in the Lab Webex space.
 
