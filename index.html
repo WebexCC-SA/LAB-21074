@@ -272,7 +272,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="welcome/" class="md-tabs__link">
+      <a href="survey/" class="md-tabs__link">
         
   
   
@@ -605,12 +605,14 @@
                 <!-- <div class="tx-hero__logo">
                     <img src="template_assets/logo.png" draggable="false">
                 </div> -->
-                <h1>
+                <h1 id="home-hero-title">
                     <script>
-                        var title = document.querySelector('meta[name="description"]').content
-                        const lab = title
-                        // .split(" ")[0]
-                        document.write(lab)
+                        (function () {
+                            var title = document.querySelector('meta[name="description"]').content;
+                            var lab = title;
+                            // .split(" ")[0]
+                            document.getElementById('home-hero-title').textContent = lab;
+                        })();
                     </script>
                 </h1>
                 <div class="tx-hero__image">
@@ -1036,7 +1038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="welcome/" class="md-nav__link">
+      <a href="survey/" class="md-nav__link">
         
   
   

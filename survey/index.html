@@ -738,13 +738,24 @@
 
 
 <h1 id="post-session-survey"><center>Post-Session Survey</center></h1>
+<div id="slido-embed"></div>
 <script>
-  const cutoff = new Date('2026-10-08T04:59:59Z');
-  const now = new Date();
-  const slidoUrl = now < cutoff
-    ? 'https://app.sli.do/event/1SyaZW7bvQuVyAyPRLv2hD'
-    : 'https://app.sli.do/event/bEVrb3N94UPZZob4y7WM3x';
-  document.write('<iframe src="' + slidoUrl + '" height="100%" width="100%" frameBorder="0" style="min-height: 560px;" allow="clipboard-write" title="Slido"></iframe>');
+  (function () {
+    const cutoff = new Date('2026-10-08T04:59:59Z');
+    const now = new Date();
+    const slidoUrl = now < cutoff
+      ? 'https://app.sli.do/event/1SyaZW7bvQuVyAyPRLv2hD'
+      : 'https://app.sli.do/event/bEVrb3N94UPZZob4y7WM3x';
+    const iframe = document.createElement('iframe');
+    iframe.src = slidoUrl;
+    iframe.height = '100%';
+    iframe.width = '100%';
+    iframe.frameBorder = '0';
+    iframe.style.minHeight = '560px';
+    iframe.allow = 'clipboard-write';
+    iframe.title = 'Slido';
+    document.getElementById('slido-embed').appendChild(iframe);
+  })();
 </script>
 
 

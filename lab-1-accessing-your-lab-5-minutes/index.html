@@ -279,7 +279,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../welcome/" class="md-tabs__link">
+      <a href="../survey/" class="md-tabs__link">
         
   
   
@@ -821,7 +821,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../welcome/" class="md-nav__link">
+      <a href="../survey/" class="md-nav__link">
         
   
   
@@ -861,14 +861,22 @@
 <h1 id="lab-1-accessing-your-lab-5-minutes">Lab 1: Accessing your Lab [5 minutes]</h1>
 <p>All components for this lab can be accessed through a web browser on the Lab PC. <strong>No VPN or app installations are required.</strong></p>
 <h3 id="step-11-accessing-your-lab-session-from-the-lab-pc">Step 1.1: Accessing your Lab session from the Lab PC</h3>
-<p>On your Lab PC, open a web session in chrome browser. Open the link below –</p>
+<p>On your Lab PC, open Chrome and navigate to the link below to begin your lab session.</p>
+<p><span id="lab-access-link"></span></p>
 <script>
-  const labAccessCutoff = new Date('2026-10-08T04:59:59Z');
-  const labAccessNow = new Date();
-  const labAccessUrl = labAccessNow < labAccessCutoff
-    ? 'http://cs.co/LAB21074a'
-    : 'http://cs.co/LAB21074b';
-  document.write('<a href="' + labAccessUrl + '" target="_blank" rel="noopener">' + labAccessUrl + '</a>');
+  (function () {
+    const labAccessCutoff = new Date('2026-10-08T04:59:59Z');
+    const labAccessNow = new Date();
+    const labAccessUrl = labAccessNow < labAccessCutoff
+      ? 'http://cs.co/LAB21074a'
+      : 'http://cs.co/LAB21074b';
+    const link = document.createElement('a');
+    link.href = labAccessUrl;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.textContent = labAccessUrl;
+    document.getElementById('lab-access-link').appendChild(link);
+  })();
 </script>
 
 <p>The url is also shared in the Lab Webex space.</p>
