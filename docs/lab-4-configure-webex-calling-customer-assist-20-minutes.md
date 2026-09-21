@@ -56,7 +56,7 @@
 1. In the Welcome Message section:
 
     * **Checked mark** on “Welcome message is mandatory”
-    * Select “Custom Greeting” to use TTS Announcement created in Task 3.
+    * Select “Custom Greeting” to use TTS Announcement created in Lab 3.
 
 2. Click “**Select File**” to use TTS Announcement file.
 

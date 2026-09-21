@@ -6,7 +6,7 @@ We can now test and validate the AI Receptionist we built, let’s interact with
 * You can call the AI Receptionist using the PSTN number from your cell phone; however, we recommend using the Webex app and dial the extension “6500” to test.
 * We are providing headset with microphone to attendees, if you have not received one, please reach out to one of the proctors to request one.
 * To perform the validation, login as Anita Perez with Webex app in Lab PC and Charles Holland in Workstation1. Follow the table below on which workstation to login.
-* User ID and password can be found in Task 1: Step 2 – Login Credentials for Control Hub.
+* User ID and password can be found in Lab 1: Step 1.2 – Login Credentials for Control Hub.
 
 Summary Below:
 
@@ -32,9 +32,9 @@ Summary Below:
 
     **Control Hub password:** dCloudxxxx!
 
-    Refer to the Session Details (Task 1 – Step 2) for the user-id and password applicable for your session.
+    Refer to the Session Details (Lab 1 – Step 1.2) for the user-id and password applicable for your session.
 
-    ![](assets/docx-image-073.png){ .bordered } ![](assets/docx-image-074.png){ .bordered }
+    ![](assets/step5-1-2.jpg){ .bordered }
 
 3. Click the **two** **checkboxes** and select “**Allow Access**” to continue if you encountered this pop-up for Webex app – usually happened during first launch.
 
@@ -48,7 +48,7 @@ Summary Below:
 
     ![A screenshot of a phone call AI-generated content may be incorrect.](assets/docx-image-077.png){ .bordered }
 
-6. Repeat the same steps to login as Charles Holland from workstation1, you would use [cholland@domain.com](mailto:cholland@domain.com) and password provided in Task1.
+1. Repeat the same steps to login as Charles Holland from workstation1, you would use [cholland@domain.com](mailto:cholland@domain.com) and password provided in Lab 1.
 
 ### Step 5.2: Call-in to AI Receptionist x6500
 
@@ -60,14 +60,11 @@ Summary Below:
 
 3. Press the “handset” icon to initiate the call.
 
-    |  |  |
-    | --- | --- |
-    | Typing 6500 in the “Search or dial” | Pressing 6500 on the Dialer pad |
-    |  |  |
+    ![](assets/step5-2-3.jpg){ .bordered }
 
 4. A call window will pop-up and you will hear the AI Receptionist greeting, start interacting with it.
 
-    ![](assets/docx-image-081.png){ .bordered }
+    ![](assets/docx-image-081.png){ .bordered width="60%" }
 
 5. Some example voice interactions examples you can use based on our Knowledge Base we have configured –
 
@@ -88,13 +85,11 @@ Summary Below:
 
 9. Call “6500” again from Lab PC which is “Anita Perez” Webex app. Now try asking can you schedule an appointment for the weekend? The AI Receptionist will ask you if you want to talk to a scheduler, say Yes and it will transfer the call to Customer Assist queue where Charles Holland is our Agent who would answer the call from Workstation1.
 
-10. Call “6500” again from Lab PC which is “Anita Perez” Webex app. Now try asking can you schedule an appointment? The AI Receptionist will ask you if you want to talk to a scheduler, say Yes and it will transfer the call to Customer Assist queue where Charles Holland is our Agent who would answer the call from Workstation1.
-
 11. When you answer the call, you would notice a screen pop giving the information about customer which is a CRM integration feature available with Customer Assist.
 
     ![](assets/docx-image-083.png){ .bordered }
 
-### Step 5.3: Add Additional Knowledge Base
+### Step 5.3: Create Additional Knowledge Base
 
 Let’s try updating the Knowledge Base to experience how AI Receptionist can answer most of the repeat questions by customers and avoid human interventions unless needed. We will use another method through the control hub native option without uploading the document.
 
@@ -121,9 +116,7 @@ Let’s try updating the Knowledge Base to experience how AI Receptionist can an
 
     ![](assets/docx-image-087.png){ .bordered }
 
-    |  |  |
-    | --- | --- |
-    |  | Sometimes the KB processing after upload might take times (especially for large KB) and indicated by a spinning circle. Please give it few minutes for it to complete upload and content analysis. |
+    ![](assets/step5-3-5.jpg)
 
 6. Back to Anita Perez Webex app, and you can start interacting with AI Receptionist by calling “6500”. This time start asking questions such as below –
 
@@ -132,7 +125,8 @@ Let’s try updating the Knowledge Base to experience how AI Receptionist can an
 
     This time you would notice the AI Receptionist answered the questions regarding billing and extended scheduling without needing to transfer to the human representatives.
 
-7. Note: Responding "No" when the AI Receptionist asks "Is there anything else I can help you with?" will automatically end the call.
+!!! note "Note"
+    Answering "No" when the AI Receptionist asks: "Is there anything else I can help you with?" will automatically end the call.
 
 ### Step 5.4: Change AI Receptionist Language
 
@@ -146,34 +140,10 @@ AI Receptionist offers multiple languages to support several Geos, to change and
 
 3. Select AI Receptionist Language as “Spanish (Mexico) and select the AI receptionist voice as “Luna”, once selected click “Save”.![](assets/docx-image-090.png){ .bordered }
 
-4. From the Lab PC call “6500” again from “Anita Perez” Webex app. AI Receptionist will respond in the written language for Welcome Message, but subsequent interaction will be in Spanish such as –
+4. From the Lab PC call “6500” again from “Anita Perez” Webex app. AI Receptionist will respond in the written language for Welcome Message, but subsequent interactions will be in Spanish such as –
 
     * Habla espanol? (Do you speak Spanish?)
     * ¿Cuál es su dirección? (What is your address?)
 
 5. You can hang up once you finish testing the interactions.
 
-### Step 5.5: Monitor AI Receptionist Usage
-
-To monitor AI Receptionist usage, you can go to the Control Hub under AI Receptionist you would see a tab for “Usage”.
-
-* The trials have entitlement to 2 bundles of AI receptionist agent. Each entitlement provides 500 minutes of usage.
-* The usage is tracked in seconds, with the minimum consumption unit being 1 second.
-* Review the usage summary for the current billing cycle.
-* The usage view can include the total entitlement, consumed usage, remaining usage, and the billing cycle for which usage is displayed.
-* Use the usage summary to identify whether the organization is approaching its entitlement limit.
-* The AI Receptionist report helps administrators understand how AI Receptionist is handling calls across the organization. Use the report to see whether callers are reaching AI Receptionist, whether calls are being answered, how often calls are transferred, and whether transfers succeed.
-
-    ![](assets/docx-image-091.png){ .bordered }
-
-* The report is useful when you want to evaluate front desk automation, compare performance across receptionists or locations, and identify configuration improvements. For example, a low intent-transfer rate may indicate that intents need clearer descriptions, while a low transfer success rate may indicate that transfer destinations, operating hours, or routing configuration need review.
-
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-**Congratulations, you have finished this fantastic “Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist” lab.**
-
-Please click “**Logout and Release Station**” to release the session for next lab participants.
-
-Complete your [Post-Session Survey](survey.md).
-
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

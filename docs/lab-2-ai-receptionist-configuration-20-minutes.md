@@ -1,6 +1,6 @@
 # Lab 2: AI Receptionist Configuration [20 minutes]
 
-In this Task you will be configuring AI Receptionist Persona with knowledge base and call routing as post action along with Intent
+In this Lab section, you will be configuring AI Receptionist Persona with knowledge base and call routing as post action along with Intent
 
 ### Step 2.1: Accessing the AI Receptionist Feature
 
@@ -51,7 +51,7 @@ If you recall our call flow scenario, we are preparing AI Receptionist for the D
     ![](assets/docx-image-026.png){ .bordered }
 
     !!! note "Note"
-        - In real world scenario please make sure you build your own Knowledge Base Document as per the accurate business workflow and call flow requirements to train the agent, this is most critical part make efficient use of the AI Receptionist.
+        - For real-world scenarios, build custom Knowledge Base documents tailored to your specific business workflows and call flow requirements. This is the most critical step in effectively training the agent and maximizing the value of the AI Receptionist.
         - The supported file types are –
             - File types: PDF, DOCX, TXT, XLSX, XLS, CSV.
             - File size limits: TXT up to 2 MB; all other formats up to 10 MB.
@@ -96,7 +96,7 @@ If you recall our call flow scenario, we are preparing AI Receptionist for the D
     | **Assign a Phone Number** | “Main Number” from dCloud Location, usually the first number in the list from your available Webex Calling lines and Extension – “6500” |
     | **AI engine** | “Welex AI Pro 1.0” as we will test other languages as well |
     | **AI Receptionist Language** | English (United States and AI receptionist voice – “Jennifer” |
-    | **Direct line caller ID name and Dial by name** | “Smile Dental” |
+    | **Dial by name is used for auto attendant name dialing** | “Smile Dental” |
 
     ![](assets/docx-image-034.png){ .bordered }
 
@@ -183,9 +183,9 @@ Select the Knowledge Base “Smile Dental” that was already created and click 
 
 3. Once added the Intent will appear towards the bottom of the screen.
 
-    ![](assets/docx-image-045.png){ .bordered }
+4. Click “Close” to proceed.
 
-4. You can click “Close” since we have already added Knowledge Base.
+    ![](assets/step2-9-4.jpg)
 
 ### Step 2.10: AI Receptionist Quick Validation
 

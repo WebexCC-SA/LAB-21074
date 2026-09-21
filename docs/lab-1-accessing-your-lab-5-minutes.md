@@ -96,9 +96,11 @@ The url is also shared in the Lab Webex space.
 
     ![](assets/docx-image-012.png){ .bordered }
 
-    |  |  |
-    | --- | --- |
-    |  | **Note:**  License assignment is listed in xx/yy format.   * xx = license assigned to users or workstation * yy = total available license in your subscription |
+    !!! note "Note"
+        License assignment is listed in xx/yy format.
+
+        * xx = license assigned to users or workstation
+        * yy = total available license in your subscription
 
 ### Step 1.5: Users and their Calling License Assignment
 
@@ -124,7 +126,7 @@ At this step, you will be verifying PSTN type for dCloud location.
 
 1. Under Management, click on “Locations”
 
-2. Click on “dCloud” > navigate and click on “Calling” tab
+2. Click on “dCloud” > navigate and click on “**PSTN**” tab
 
 3. Verify that PSTN Connection = Premised-based PSTN, and a number is assigned to the Main number field.
 
@@ -136,6 +138,6 @@ At this step, you will be verifying PSTN type for dCloud location.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-017.png){ .bordered }
 
-    |  |  |
-    | --- | --- |
-    |  | **Note:**   * **Assign the dCloud Location Main Number to the AI Receptionist;** note that this PSTN number varies by lab instance. * In **Testing and Call Flow** section **–** you will be using **extension 6500** (configured later) **to reach AI Receptionist** from Webex app. |
+    !!! note "Note"
+        * **Assign the dCloud Location Main Number to the AI Receptionist;** note that this PSTN number varies by lab instance.
+        * In **Testing and Call Flow** section – you will be using **extension 6500** (configured later) **to reach AI Receptionist** from Webex app.
