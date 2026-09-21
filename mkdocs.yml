@@ -86,7 +86,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
-  - Lab:
+  - Lab Guide:
       - Learning Objectives: lab-learning-objectives.md
       - Overview: lab-overview.md
       - Lab 1 - Accessing your Lab: lab-1-accessing-your-lab-5-minutes.md
