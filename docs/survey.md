@@ -16,7 +16,8 @@ title: Post-Session Survey
     iframe.height = '100%';
     iframe.width = '100%';
     iframe.frameBorder = '0';
-    iframe.style.minHeight = '560px';
+    iframe.style.height = 'calc(100vh - 180px)';
+    iframe.style.minHeight = '720px';
     iframe.allow = 'clipboard-write';
     iframe.title = 'Slido';
     document.getElementById('slido-embed').appendChild(iframe);
