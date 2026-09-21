@@ -1,0 +1,1302 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="LAB-21074 - Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist">
+      
+      
+        <meta name="author" content="Eddy Chandra, Kalpesh Patil">
+      
+      
+      
+        <link rel="prev" href="../lab-1-accessing-your-lab-5-minutes/">
+      
+      
+        <link rel="next" href="../lab-3-configure-webex-calling-tts-announcement-5-minutes/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Lab 2 - AI Receptionist Configuration - LAB-21074 - Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lab-2-ai-receptionist-configuration-20-minutes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="LAB-21074 - Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist" class="md-header__button md-logo" aria-label="LAB-21074 - Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB-21074 - Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lab 2 - AI Receptionist Configuration
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../lab-learning-objectives/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Lab Guide
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../topologies/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Topologies
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../survey/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Post-Session Survey
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="LAB-21074 - Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist" class="md-nav__button md-logo" aria-label="LAB-21074 - Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    LAB-21074 - Transform Customer Engagement: Mastering Webex AI Receptionist with Customer Assist
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lab Guide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Lab Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab-learning-objectives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Objectives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab-1-accessing-your-lab-5-minutes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lab 1 - Accessing your Lab
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lab 2 - AI Receptionist Configuration
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lab 2 - AI Receptionist Configuration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#step-21-accessing-the-ai-receptionist-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2.1: Accessing the AI Receptionist Feature
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-22-add-knowledge-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2.2: Add Knowledge Base
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-23-add-a-knowledge-base-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2.3: Add a Knowledge Base File
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-24-configuring-ai-receptionist-with-general-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2.4: Configuring AI Receptionist with General Settings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-25-receptionist-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2.5: Receptionist Guidelines
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-26-assign-knowledge-base-to-ai-receptionist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2.6: Assign Knowledge Base to AI Receptionist
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-27-default-action-configuration-setting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2.7: Default Action Configuration Setting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-28-final-review-and-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2.8: Final Review and Creation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-29-ai-receptionist-add-intents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2.9: AI Receptionist Add Intents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-210-ai-receptionist-quick-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2.10: AI Receptionist Quick Validation
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab-3-configure-webex-calling-tts-announcement-5-minutes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lab 3 - Configure Webex Calling TTS Announcement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab-4-configure-webex-calling-customer-assist-20-minutes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lab 4 - Configure Webex Calling Customer Assist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab-5-testing-and-call-flow-validation-30-minutes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lab 5 - Testing and Call Flow Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab-6-monitor-ai-receptionist-usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lab 6 - Monitor AI Receptionist Usage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab-appendix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topologies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Topologies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../survey/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Post-Session Survey
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="lab-2-ai-receptionist-configuration-20-minutes">Lab 2: AI Receptionist Configuration [20 minutes]</h1>
+<p>In this Lab section, you will be configuring AI Receptionist Persona with knowledge base and call routing as post action along with Intent</p>
+<h3 id="step-21-accessing-the-ai-receptionist-feature">Step 2.1: Accessing the AI Receptionist Feature</h3>
+<ol>
+<li>
+<p>From the Control Hub portal, navigate to the left-hand navigation pane.</p>
+</li>
+<li>
+<p>Under the Services section, click on Calling.</p>
+</li>
+<li>
+<p>Select the AI Receptionist tab from the top menu.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-018.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-018.png"></a></p>
+</li>
+<li>
+<p>You would see screen below.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-019.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-019.png"></a></p>
+<p>We will create the Knowledge Base first and assign it to the AI Receptionist during the creation process. Once AI Receptionist configured, we will continue with the Intent configuration.</p>
+</li>
+</ol>
+<h3 id="step-22-add-knowledge-base">Step 2.2: Add Knowledge Base</h3>
+<p>If you recall our call flow scenario, we are preparing AI Receptionist for the Dental Clinic, we have named it Smile Dental Clinic. Let’s include the information we want our Agent to know and provide interactive information to the customers.</p>
+<ol>
+<li>
+<p>In the Knowledge base section, click Create a new knowledge base.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-020.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-020.png"></a></p>
+</li>
+<li>
+<p>In the name section enter “Smile Dental” and “FAQ” for the Description just to reference it, you can add more details if you would like it for your future reference.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-021.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-021.png"></a></p>
+</li>
+<li>
+<p>Once added you should see the Knowledge Base with “0” files, let’s add the file now. Click on “Smile Dental” Clinic and follow steps below.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-022.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-022.png"></a></p>
+</li>
+<li>
+<p>In this lab, we have created a Q&amp;A Knowledge Base file that you can use.</p>
+</li>
+<li>
+<p>Copy this link and paste it to a new Chrome tab to download it to your lab PC: <a href="http://crm.free.nf/SmileDentalClinic-KB.txt.zip" rel="noopener" target="_blank">http://crm.free.nf/SmileDentalClinic-KB.txt.zip</a>, and press Enter.</p>
+</li>
+<li>
+<p>If you see download prompt click “Keep” to continue download the file to the Download folder.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-023.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-023.png"></a></p>
+</li>
+<li>
+<p>Extract the zip file and review the Questions and Answers.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-024.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-024.png"></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-025.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-025.png"></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-026.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-026.png"></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>For real-world scenarios, build custom Knowledge Base documents tailored to your specific business workflows and call flow requirements. This is the most critical step in effectively training the agent and maximizing the value of the AI Receptionist.</li>
+<li>The supported file types are –<ul>
+<li>File types: PDF, DOCX, TXT, XLSX, XLS, CSV.</li>
+<li>File size limits: TXT up to 2 MB; all other formats up to 10 MB.</li>
+</ul>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+<h3 id="step-23-add-a-knowledge-base-file">Step 2.3: Add a Knowledge Base File</h3>
+<ol>
+<li>
+<p>To add files, click the Add button.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-027.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-027.png"></a></p>
+</li>
+<li>
+<p>Click Upload the file from the Desktop to create entries for FAQs, schedules, or guidelines, you would notice there is also an option for Create which we will use in later section.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-028.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-028.png"></a></p>
+</li>
+<li>
+<p>Select the file “SmileDentalClinic.txt” from the Downloads folder and click Open.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-029.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-029.png"></a></p>
+</li>
+<li>
+<p>Verify that your files have been added successfully (a confirmation toast will appear at the bottom of the screen).</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-030.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-030.png"></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-031.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-031.png"></a></p>
+</li>
+<li>
+<p>If you go back to Knowledge Base, you should see there is a file added under Smile Dental Knowledge Base but not Assigned yet.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-032.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-032.png"></a></p>
+</li>
+</ol>
+<h3 id="step-24-configuring-ai-receptionist-with-general-settings">Step 2.4: Configuring AI Receptionist with General Settings</h3>
+<ol>
+<li>
+<p>Click the Create button to begin the setup process for a new AI receptionist.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-033.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-033.png"></a></p>
+</li>
+<li>
+<p>In the General settings window, select the configuration as below –</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Location</strong></td>
+<td>dCloud</td>
+</tr>
+<tr>
+<td><strong>AI receptionist name</strong></td>
+<td>Smile Dental</td>
+</tr>
+<tr>
+<td><strong>Assign a Phone Number</strong></td>
+<td>“Main Number” from dCloud Location, usually the first number in the list from your available Webex Calling lines and Extension – “6500”</td>
+</tr>
+<tr>
+<td><strong>AI engine</strong></td>
+<td>“Welex AI Pro 1.0” as we will test other languages as well</td>
+</tr>
+<tr>
+<td><strong>AI Receptionist Language</strong></td>
+<td>English (United States and AI receptionist voice – “Jennifer”</td>
+</tr>
+<tr>
+<td><strong>Dial by name is used for auto attendant name dialing</strong></td>
+<td>“Smile Dental”</td>
+</tr>
+</tbody>
+</table>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-034.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-034.png"></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-035.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-035.png"></a></p>
+<p>Click Next to proceed</p>
+</li>
+</ol>
+<h3 id="step-25-receptionist-guidelines">Step 2.5: Receptionist Guidelines</h3>
+<ol>
+<li>
+<p>This is a critical section where you are defining how your AI Receptionist will interact with callers. You can leverage available templates (organized by industry vertical) in the “Apply Template” drop down selection, we highly recommend reviewing and revise them based on your business requirements.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-036.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-036.png"></a></p>
+<p>In this lab, we will not be using any of this template.</p>
+</li>
+<li>
+<p>Copy and paste the value from each row in the table below to configure “Receptionist guidelines” section.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Receptionist’s goal</strong></td>
+<td>As the AI Receptionist for Smile Dental Clinic, your role is to assist callers by providing accurate information about our services, answering basic inquiries, and professionally redirecting calls to the designated operator when needed. Always maintain a polite, professional, and approachable tone to ensure a positive caller experience.</td>
+</tr>
+<tr>
+<td><strong>AI transparency</strong></td>
+<td><span class="toggle-on-badge"><span class="toggle-on-badge__dot">✓</span>AI transparency</span>  <em>Plays a non-interruptible AI transparency message before the welcome message. Leave it Default as most of the Countries need this part of the regulatory requirement.</em></td>
+</tr>
+<tr>
+<td><strong>Transparency message</strong></td>
+<td>Hi, I'm an AI receptionist. This interaction may be recorded and transcribed for troubleshooting purposes.</td>
+</tr>
+<tr>
+<td><strong>Welcome Message</strong></td>
+<td>Hello, thank you for calling Smile Dental Clinic. How can I assist you today?</td>
+</tr>
+<tr>
+<td><strong>Receptionist Guidelines (optional)</strong></td>
+<td><ul style="list-style:none; padding-left:0; margin:0;"><li>1. Identity<ul><li>Role Definition: You are a friendly, professional assistant dedicated to handling incoming calls for Smile Dental Clinic.</li><li>Your primary responsibilities include answering basic questions about our services and managing appointment scheduling.</li><li>Tone and demeanour: Maintain a polite, empathetic, and patient tone throughout the interaction to ensure callers feel valued and understood.</li></ul></li><li>2. Context<ul><li>Background Information:</li><li>Use only the information provided to you to respond to callers.</li><li>For appointment scheduling or cancellation requests, you may transfer callers to the default action number for setup or cancellation.</li><li>If callers have intents beyond scheduling, inform them politely that you handle scheduling only, but you can transfer them to the appropriate team.</li><li>Advise callers that they will need to repeat their queries to the scheduler after transfer.</li></ul></li><li>3. Additional Guardrails<ul><li>Scope Limitation: Do not attempt to answer questions outside your defined scope (basic service queries and appointment management).</li><li>Transfer Protocol: Always confirm with the caller before transferring the call.</li><li>Caller Verification: If applicable, verify caller identity before processing appointment changes.</li><li>Error Handling: If caller input is unclear or ambiguous, politely ask for clarification or repetition.</li><li>Privacy and Compliance: Do not disclose any sensitive or personal information unless authorized.</li><li>Fallback Responses: If unable to assist, provide a courteous default response and offer transfer to a human agent.</li><li>Conversation Closure: Always end calls with a polite closing statement, thanking the caller for contacting Smile Dental Clinic.</li></ul></li></ul></td>
+</tr>
+</tbody>
+</table>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-038.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-038.png"></a></p>
+</li>
+</ol>
+<h3 id="step-26-assign-knowledge-base-to-ai-receptionist">Step 2.6: Assign Knowledge Base to AI Receptionist</h3>
+<p>Select the Knowledge Base “Smile Dental” that was already created and click Next.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-039.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-039.png"></a></p>
+<h3 id="step-27-default-action-configuration-setting">Step 2.7: Default Action Configuration Setting</h3>
+<ol>
+<li>
+<p>In the Default Action select settings as below and click Review –</p>
+<p></p><ol type="a">
+<li>When AI Receptionist cannot find the contact, the caller is looking for – Select “Transfer call” from drop down</li>
+<li>Enter Phone number or extension – “6801” which is Customer Assist Queue Extension number in this lab. This will take the caller to the Customer Assist queue which you will configure in the next section.</li>
+</ol><p></p>
+<p></p><div class="extra-indent" markdown="1">
+<a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-040.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-040.png" width="874"></a>
+</div><p></p>
+<p></p><ol type="i">
+<li>Once you enter the number click Review in the bottom.</li>
+</ol><p></p>
+<p></p><div class="extra-indent" markdown="1">
+<a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-041.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-041.png" width="874"></a>
+</div><p></p>
+</li>
+</ol>
+<h3 id="step-28-final-review-and-creation">Step 2.8: Final Review and Creation</h3>
+<ol>
+<li>
+<p>On the Review page, carefully verify all configured settings across the General Settings, Receptionist guidelines, Knowledge base, and Default action tabs.</p>
+</li>
+<li>
+<p>If any changes are needed, you can navigate back to previous steps.</p>
+</li>
+<li>
+<p>Once satisfied, click the “<strong>Create</strong>” button to finalize your AI Receptionist.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-042.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-042.png" width="753"></a></p>
+</li>
+<li>
+<p>You will see the message “AI Receptionist was created successfully”.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-043.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-043.png" width="753"></a></p>
+</li>
+<li>
+<p>Click “<strong>Next: Add intents</strong>” to continue to next Step.</p>
+</li>
+</ol>
+<h3 id="step-29-ai-receptionist-add-intents">Step 2.9: AI Receptionist Add Intents</h3>
+<ol>
+<li>
+<p>Enter details below to create Intent:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Intent name</td>
+<td>Billing-Queries</td>
+</tr>
+<tr>
+<td>Intent description</td>
+<td>Connect callers to the billing representative who is knowledgeable and can answer caller queries.</td>
+</tr>
+<tr>
+<td>Transfer to</td>
+<td>Select User -&gt; “Charles Holland”, we will be simulating “Charles Holland” as Billing Specialist who would be our Customer Assist Agent as well.</td>
+</tr>
+</tbody>
+</table>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-044.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-044.png"></a></p>
+</li>
+<li>
+<p>Once all the information configured as above click -&gt; “<strong>Add Intent</strong>”.</p>
+</li>
+<li>
+<p>Once added the Intent will appear towards the bottom of the screen.</p>
+</li>
+<li>
+<p>Click “Close” to proceed.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/step2-9-4.jpg" data-desc-position="top"><img alt="" src="../assets/step2-9-4.jpg"></a></p>
+</li>
+</ol>
+<h3 id="step-210-ai-receptionist-quick-validation">Step 2.10: AI Receptionist Quick Validation</h3>
+<ol>
+<li>
+<p>Let’s review the configuration and update if anything entered incorrectly.</p>
+</li>
+<li>
+<p>Go back to AI Receptionist and click “Smile Dental” to review the configuration.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-046.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-046.png" width="753"></a></p>
+</li>
+<li>
+<p>Review all the settings and go to the next section for testing.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/docx-image-047.png" data-desc-position="top"><img alt="" class="bordered" src="../assets/docx-image-047.png" width="756"></a></p>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../lab-1-accessing-your-lab-5-minutes/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lab 1 - Accessing your Lab">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Lab 1 - Accessing your Lab
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../lab-3-configure-webex-calling-tts-announcement-5-minutes/" class="md-footer__link md-footer__link--next" aria-label="Next: Lab 3 - Configure Webex Calling TTS Announcement">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Lab 3 - Configure Webex Calling TTS Announcement
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2026 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../template_assets/js/newLoad.js"></script>
+      
+        <script src="../template_assets/js/setInfo.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
