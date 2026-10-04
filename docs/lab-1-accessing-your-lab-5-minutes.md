@@ -43,7 +43,7 @@ The url is also shared in the Lab Webex space.
 
 ### Step 1.2: Access Control Hub from Lab PC
 
-1. Once you are in the Workstation1 it will be automatically logged in as “Charles Holland”.
+1. Once you are in the Workstation2 it will be automatically logged in as “Charles Holland”.
 
 2. Sort the Desktop files by “Name” and open the file “WEBEX\_PASSWORD.txt”
 
