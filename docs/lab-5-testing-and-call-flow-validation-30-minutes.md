@@ -36,7 +36,7 @@ Summary Below:
 
     ![](assets/step5-1-2.jpg){ .bordered }
 
-3. Click the **two** **checkboxes** and select “**Allow Access**” to continue if you encountered this pop-up for Webex app – usually happened during first launch.
+3. Click the **two** **checkboxes** and select “**Allow**” to continue if you encountered this pop-up for Webex app – usually happened during first launch.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](assets/docx-image-075.png){ .bordered }
 

@@ -45,7 +45,7 @@ The url is also shared in the Lab Webex space.
 
 1. Once you are in the Workstation2 it will be automatically logged in as “Charles Holland”.
 
-2. Sort the Desktop files by “Name” and open the file “WEBEX\_PASSWORD.txt”
+2. Find “WEBEX\_PASSWORD.txt” on the desktop. You can sort the icons/files by “Name” for easier finding by right click on the desktop and select "Sort by".
 
     ![](assets/docx-image-008.png){ .bordered }
 
