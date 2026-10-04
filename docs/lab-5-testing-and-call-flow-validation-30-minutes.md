@@ -5,7 +5,7 @@ We can now test and validate the AI Receptionist we built, let’s interact with
 * If you recall our call flow we had designed, we assigned a PSTN number – “dCloud Main Location number” and an extension “6500” to the AI Receptionist![](assets/docx-image-071.png){ .bordered }
 * You can call the AI Receptionist using the PSTN number from your cell phone; however, we recommend using the Webex app and dial the extension “6500” to test.
 * We are providing headset with microphone to attendees, if you have not received one, please reach out to one of the proctors to request one.
-* To perform the validation, login as Anita Perez with Webex app in Lab PC and Charles Holland in Workstation1. Follow the table below on which workstation to login.
+* To perform the validation, login as Anita Perez with Webex app in Lab PC and Charles Holland in Workstation2. Follow the table below on which workstation to login.
 * User ID and password can be found in Lab 1: Step 1.2 – Login Credentials for Control Hub.
 
 Summary Below:
@@ -16,7 +16,7 @@ Summary Below:
 | Anita Perez | 6017 | Caller / Customer | Lab PC Webex app  Connect Headset in 3.5mm jack |
 | AI Receptionist | 6500 | Smile Dental AI Receptionist | - |
 | Customer Assist Queue | 6801 | Customer Support Queue | - |
-| Charles Holland | 6018 | Billing Specialist/ Human Agent | Login from Workstation1 |
+| Charles Holland | 6018 | Billing Specialist/ Human Agent | Login from Workstation2 |
 
 ### Step 5.1: Login to Webex app as Anita Perez
 
@@ -48,7 +48,7 @@ Summary Below:
 
     ![A screenshot of a phone call AI-generated content may be incorrect.](assets/docx-image-077.png){ .bordered }
 
-1. Repeat the same steps to login as Charles Holland from workstation1, you would use [cholland@domain.com](mailto:cholland@domain.com) and password provided in Lab 1.
+1. Repeat the same steps to login as Charles Holland from workstation2, you would use [cholland@domain.com](mailto:cholland@domain.com) and password provided in Lab 1.
 
 ### Step 5.2: Call-in to AI Receptionist x6500
 
@@ -80,10 +80,10 @@ Summary Below:
 7. The AI Receptionist will ask if it can transfer to the Billing Specialist, say Yes for that. You should see the call is getting transferred to Charles Holland who is our Billing Specialist as we have configured before.
 
     ![](assets/docx-image-082.png){ .bordered }
-
+f
 8. Once call is connected hangup as you may not be able to hear anything, but this validates our Intent based routing.
 
-9. Call “6500” again from Lab PC which is “Anita Perez” Webex app. Now try asking can you schedule an appointment for the weekend? The AI Receptionist will ask you if you want to talk to a scheduler, say Yes and it will transfer the call to Customer Assist queue where Charles Holland is our Agent who would answer the call from Workstation1.
+9. Call “6500” again from Lab PC which is “Anita Perez” Webex app. Now try asking can you schedule an appointment for the weekend? The AI Receptionist will ask you if you want to talk to a scheduler, say Yes and it will transfer the call to Customer Assist queue where Charles Holland is our Agent who would answer the call from Workstation2.
 
 11. When you answer the call, you would notice a screen pop giving the information about customer which is a CRM integration feature available with Customer Assist.
 
@@ -120,7 +120,7 @@ Let’s try updating the Knowledge Base to experience how AI Receptionist can an
 
 6. Back to Anita Perez Webex app, and you can start interacting with AI Receptionist by calling “6500”. This time start asking questions such as below –
 
-    * Can I get an appointment this weekend?
+    * Are you open this weekend?
     * How much do you charge for cleaning service?
 
     This time you would notice the AI Receptionist answered the questions regarding billing and extended scheduling without needing to transfer to the human representatives.
