@@ -9,7 +9,7 @@ On your Lab PC, open Chrome and navigate to the link below to begin your lab ses
 <span id="lab-access-link"></span>
 <script>
   (function () {
-    const labAccessCutoff = new Date('2026-10-08T04:59:59Z');
+    const labAccessCutoff = new Date('2026-10-06T08:00:00Z');
     const labAccessNow = new Date();
     const labAccessUrl = labAccessNow < labAccessCutoff
       ? 'http://cs.co/LAB21074a'

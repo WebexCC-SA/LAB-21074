@@ -6,7 +6,7 @@ title: Post-Session Survey
 <div id="slido-embed"></div>
 <script>
   (function () {
-    const cutoff = new Date('2026-10-08T04:59:59Z');
+    const cutoff = new Date('2026-10-06T08:00:00Z');
     const now = new Date();
     const slidoUrl = now < cutoff
       ? 'https://app.sli.do/event/1SyaZW7bvQuVyAyPRLv2hD'
